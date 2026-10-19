@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 280" fill="none">
+  <defs>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fba138" />
+      <stop offset="60%" stop-color="#f37920" />
+      <stop offset="100%" stop-color="#ea5a17" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#083e50" />
+      <stop offset="100%" stop-color="#0c566d" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sun Outer Halo Arc -->
+  <path d="M 112 124 A 42 42 0 0 1 192 108" 
+        stroke="#e57626" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        fill="none" />
+
+  <!-- Rising Sun Disc -->
+  <path d="M 120 125 A 34 34 0 0 1 184 102 Z" 
+        fill="url(#sunGrad)" />
+
+  <!-- Road / Highway Swirl -->
+  <path d="M 90 156 
+           C 95 142, 108 128, 134 116 
+           C 168 102, 205 92, 230 86
+           C 214 96, 172 116, 150 134
+           C 142 140, 145 156, 172 168
+           C 150 168, 126 166, 118 165
+           L 115 160
+           L 100 162
+           Z" 
+        fill="url(#roadGrad)" />
+        
+  <!-- Refined Primary Highway Curve matching uploaded image -->
+  <path d="M 88 156 
+           C 96 138, 115 125, 142 112 
+           C 178 96, 218 84, 232 86
+           C 220 92, 185 106, 160 124 
+           C 144 136, 145 152, 170 165
+           C 142 166, 122 164, 114 163
+           Z" 
+        fill="#0a4b60" />
+
+  <!-- Road Center Dashed Stripes (Perspective effect) -->
+  <!-- Dash 1: Bottom / Foreground -->
+  <path d="M 110 159 L 118 152 L 126 150 L 117 158 Z" fill="#ffffff" />
+  <!-- Dash 2: Mid-ground -->
+  <path d="M 134 141 L 144 134 L 149 133 L 138 141 Z" fill="#ffffff" />
+  <!-- Dash 3: Distant / Background -->
+  <path d="M 162 121 L 175 114 L 178 113.5 L 165 121 Z" fill="#ffffff" />
+  <!-- Dash 4: Near tip -->
+  <path d="M 190 104 L 202 99 L 204 98.5 L 192 104 Z" fill="#ffffff" />
+
+  <!-- Airplane Silhouette at tip -->
+  <g transform="translate(230, 80) rotate(42)">
+    <!-- Fuselage -->
+    <path d="M 0 -14 C 1.5 -14, 2.5 -10, 2.5 -4 L 2.5 7 L 1 12 L -1 12 L -2.5 7 L -2.5 -4 C -2.5 -10, -1.5 -14, 0 -14 Z" fill="#0a4b60" />
+    <!-- Main Wings -->
+    <path d="M 0 -2 L 16 7 L 16 9.5 L 1.5 5.5 L 1.5 8 L -1.5 8 L -1.5 5.5 L -16 9.5 L -16 7 Z" fill="#0a4b60" />
+    <!-- Tail Fin / Stabilizers -->
+    <path d="M 0 8 L 6 12 L 6 13.5 L 0 11.5 L -6 13.5 L -6 12 Z" fill="#0a4b60" />
+  </g>
+
+  <!-- Typography: Reeshika Travels -->
+  <!-- Reeshika (Bold deep teal) -->
+  <text x="38" y="218" 
+        font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+        font-weight="800" 
+        font-size="34" 
+        letter-spacing="-0.5px" 
+        fill="#0a4b60">Reeshika</text>
+
+  <!-- Travels (Regular lighter teal) -->
+  <text x="188" y="218" 
+        font-family="'Plus Jakarta Sans', system-ui, sans-serif" 
+        font-weight="400" 
+        font-size="34" 
+        letter-spacing="0.5px" 
+        fill="#1a687d">Travels</text>
+</svg>

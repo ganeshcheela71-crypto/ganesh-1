@@ -1,0 +1,6 @@
+{
+  "name": "Reeshika Travels",
+  "description": "Family and outstation car rental fleet booking with verified vehicles, highway chauffeurs, and transparent 12h/24h rates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
